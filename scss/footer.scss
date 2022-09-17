@@ -1,0 +1,58 @@
+@import "veriables";
+@import "mixins";
+ #footer{
+   background:$header-bg;
+   width: 207.8vh;
+   height: 40vh;
+   .container{
+     .content{
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+       .logo{
+         display: block;
+         img{
+
+           margin: 50px;
+           width: 120px;
+         }
+         span{
+
+           color: gray;
+         }
+       }
+       .razdely{
+         text-align: center;
+
+         h2{
+           padding: 37px 0;
+           color: gray;
+           font-size: 20px;
+           font-weight: 900;
+         }
+         h4{
+           color:$link-color;
+           line-height: 40px;
+         }
+
+
+       }
+       .sot-set{
+         text-align: center;
+         h2{
+           padding: 37px 0;
+           color: gray;
+           font-size: 20px;
+           font-weight: 900
+
+         }
+         h4{
+           color:$link-color;
+           line-height: 40px;
+         }
+
+       }
+     }
+
+   }
+ }

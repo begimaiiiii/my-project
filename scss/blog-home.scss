@@ -1,0 +1,20 @@
+@import "veriables";
+@import "mixins";
+
+#blog-home{
+  background: $blue;
+  width: 207.8vh;
+  height: 80vh;
+  .container{
+    .content{
+      h1{
+        padding: 160px;
+        text-align: center;
+       color:$link-color;
+        font-size: 60px;
+        font-weight: 650;
+
+      }
+    }
+  }
+}

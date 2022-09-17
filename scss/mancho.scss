@@ -1,0 +1,50 @@
+@import "veriables";
+@import "mixins";
+.mancho {
+  background-image: url('https://thumb.tildacdn.com/tild6637-3166-4436-a530-633338343462/-/format/webp/Tilda_Last_Pic.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 80vh;
+
+  .content {
+    .we-1 {
+      //margin: 50px 40px;
+      padding-top: 60px;
+      font-size: 480%;
+      color: $link-color;
+
+      span {
+        text-decoration: underline;
+      }
+
+    }
+
+    .we {
+      margin: 30px 0;
+      font-size: 25px;
+      color: $link-color;
+
+    }
+    .btn{
+      background:$link-color;
+      color:$blue;
+      padding: 14px;
+      border-radius: 20px;
+      border: 2px solid $link-color;
+      font-style: normal;
+      font-weight: bold;
+      text-align: center;
+      font-size: 14px;
+      transition: all .3s ease;
+      cursor: pointer;
+
+
+    }
+
+
+  }
+}
+
+
+

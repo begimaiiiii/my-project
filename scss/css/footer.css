@@ -1,0 +1,9 @@
+/* CSS */
+#footer {
+  background: rgb(0, 0, 0);
+}
+#footer .container .content .logo img {
+  width: 100px;
+}
+
+/*# sourceMappingURL=footer.css.map */

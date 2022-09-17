@@ -1,0 +1,25 @@
+@import "veriables";
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-size: 14px;
+}
+.container{
+  width: 90%;
+  margin: 0 auto;
+}
+.global-title{
+  color: $blue;
+  font-size: 42px;
+  line-height: 1.23;
+  font-weight: 600;
+}
+p{
+  font-size: 12px;
+  line-height:  2;
+  letter-spacing:2px;
+  color: $text-color;
+  font-weight: 300;
+}

@@ -1,0 +1,22 @@
+/* CSS */
+#header {
+  background: rgb(0, 0, 0);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header img {
+  width: 60px;
+  height: 40px;
+}
+.header .nav a {
+  color: #ffffff;
+  text-decoration: none;
+  padding-right: 40px;
+  font-size: 20px;
+}
+
+/*# sourceMappingURL=blog-header.css.map */

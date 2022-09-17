@@ -1,0 +1,32 @@
+@import "veriables";
+@import "mixins";
+.about{
+  padding: $spacing-between-sections  0;
+  .content{
+    width: 700px;
+    .about-text{
+      color: $blue;
+      font-weight: bolder;
+      padding-bottom: 10px;
+    }
+    .title{
+      .mancho-devs-name{
+        color: $header-bg;
+        font-weight: bold;
+        font-size: 18px;
+
+      }
+      p{
+        letter-spacing: 1px;
+        line-height: 2;
+        font-size: 18px;
+        font-weight: 300;
+        color: $header-bg;
+        padding-bottom: 5px;
+        .esen-bayke{
+          border-bottom: 2px solid $blue ;
+        }
+      }
+    }
+  }
+}

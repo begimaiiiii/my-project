@@ -1,0 +1,32 @@
+@import "veriables";
+@import "mixins";
+#hub-about{
+  .card{
+    margin-top: 50px;
+
+
+
+    h4{
+      border: black;
+      font-size: 20px;
+      line-height: 45px;
+      position: relative;
+      color: $blue;
+
+      //text-decoration: underline;.
+
+      //&::after{
+      //  position: absolute;
+      //  content: "-";
+      //  width: 15px;
+      //  height: 4px;
+      //  background-color: $blue;
+      //  top: 13px;
+      //  left: 90px;
+    //}
+
+
+  }
+    margin-bottom: 50px ;
+}
+}

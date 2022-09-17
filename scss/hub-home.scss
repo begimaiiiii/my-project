@@ -1,0 +1,20 @@
+@import "veriables";
+@import "mixins";
+#hub-home{
+  background: $blue;
+  width: 207.8vh;
+  height: 50vh;
+  .container{
+    .content{
+      h1{
+        padding: 110px;
+        text-align: center;
+        color:$link-color;
+        font-size: 60px;
+        font-weight: 650;
+
+      }
+    }
+  }
+}
+
